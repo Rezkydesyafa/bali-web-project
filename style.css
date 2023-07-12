@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin-inline: auto;
+  /* margin-top: 12px; */
+}
+header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url('./assets/pexels-oleksandr-canary-islands-2166553.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.navigation {
+  width: 100%;
+}
+.navigation .box-navigation {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; */
+}
+
+.navigation .box-navigation .box:nth-child(2) ul {
+  display: flex;
+  /* flex-direction: row; */
+}
+.navigation .box-navigation .box:nth-child(2) ul li {
+  list-style-type: none;
+  margin-inline: 32px;
+  margin-top: 14px;
+}
+.navigation .box-navigation .box:nth-child(2) ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding-bottom: 8px;
+  opacity: 85%;
+}
+
+.navigation .box-navigation .box:nth-child(2) ul li :hover {
+  color: #dfdfdf;
+  border-bottom: 2px solid;
+  border-color: #f7f7f7;
+}
+
+header .title {
+  position: absolute;
+  top: 60%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.logo {
+  position: absolute;
+  top: -80%;
+  right: 50%;
+  transform: translate(50%, -80%);
+  opacity: 80%;
+}
+
+header .title h1 {
+  font-size: 38px;
+  color: rgba(255, 255, 255, 0.717);
+  text-align: center;
+  font-family: 'Popins', sans-serif;
+}
+
+.button {
+  position: absolute;
+  top: 100%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  margin-top: 28px;
+}
+
+.button-container a {
+  margin-inline: 14px;
+  border: 2px solid rgba(255, 255, 255, 0.815);
+  padding: 8px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.804);
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 1s all;
+}
+
+.button-container a:hover {
+  background-color: #ffffff8e;
+  color: rgba(58, 58, 58, 0.749);
+}
+
+/* About styles */
+
+.about {
+  /* display: block; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(242, 242, 242);
+  /* margin-inline: 24px; */
+}
+.about .box-about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 28px;
+}
+.image-about {
+  height: 360px;
+  width: 620px;
+  border-radius: 12px;
+  margin-inline: 32px;
+  box-shadow: 5px 14px 31px 0px rgba(0, 0, 0, 0.56);
+  -webkit-box-shadow: 5px 14px 31px 0px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 5px 14px 31px 0px rgba(0, 0, 0, 0.56);
+}
+
+/* article styles */
+
+.article {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #2b2d42;
+  color: rgb(222, 222, 222);
+}
+
+.article .box-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.article .box-article .box {
+  text-align: center;
+  margin-inline: 10px;
+  cursor: pointer;
+}
+.img-article {
+  width: 290px;
+  height: 180px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+/* Gallery  */
+
+.gallery {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(242, 242, 242);
+}
+.gallery .box-gallery {
+  /* background-color: rgb(219, 219, 219); */
+  margin-inline: 15px;
+  border-radius: 8px;
+  padding-block: 8px;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.gallery .box-gallery img {
+  width: 260px;
+  height: 160px;
+  margin: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.text-gallery {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+/* contact syle */
+
+.contact {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b2d42;
+  color: #dfdfdf;
+}
+
+.contact .box-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact .box-contact h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.contact .box-contact form table tr {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.contact .box-contact form table tr td input {
+  padding: 12px 60px 12px 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  background-color: #dfdfdf;
+}
+.contact .box-contact form table tr td label {
+  font-size: 18px;
+}
+
+.contact .box-contact form table tr td textarea {
+  margin-top: 12px;
+  padding-left: 20px;
+  padding-top: 12px;
+  border-radius: 6px;
+  background-color: #dfdfdf;
+}
+
+.footer {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1f2c;
+}
+
+.box-footer {
+  color: #dfdfdf;
+}
+
+@media screen and (max-width: 768) {
+  .gallery {
+    height: 100%;
+    padding: 50px 0 50px 0;
+  }
+}
