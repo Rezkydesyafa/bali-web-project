@@ -106,7 +106,7 @@ header .title h1 {
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(237, 237, 237);
   /* margin-inline: 24px; */
 }
 .about .box-about {
@@ -129,6 +129,7 @@ header .title h1 {
 .about .box-about .box article h1 {
   font-size: 32px;
   margin-bottom: 12px;
+  color: #212121;
 }
 /* article styles */
 
@@ -137,7 +138,7 @@ header .title h1 {
   height: 100vh;
   display: flex;
   align-items: center;
-  background-color: #2b2d42;
+  background-color: #0d1c34;
   color: rgb(222, 222, 222);
 }
 
@@ -170,7 +171,7 @@ header .title h1 {
   height: 100vh;
   display: flex;
   align-items: center;
-  background-color: rgb(242, 242, 242);
+  background-color: #e7e8e0dd;
 }
 .gallery .box-gallery {
   /* background-color: rgb(219, 219, 219); */
@@ -196,6 +197,7 @@ header .title h1 {
   justify-content: center;
   font-size: 28px;
   margin-bottom: 15px;
+  color: #212121;
 }
 
 /* contact syle */
@@ -206,7 +208,7 @@ header .title h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2b2d42;
+  background-color: #0d1c34;
   color: #dfdfdf;
 }
 
@@ -259,7 +261,7 @@ header .title h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1e1f2c;
+  background-color: #091426;
 }
 
 .box-footer {
